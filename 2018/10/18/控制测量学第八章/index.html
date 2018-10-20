@@ -176,7 +176,61 @@
         <div class="row">
             <!-- Post Container -->
             <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
-                <h1 id="椭球面元素归算至高斯平面"><a href="#椭球面元素归算至高斯平面" class="headerlink" title="椭球面元素归算至高斯平面"></a>椭球面元素归算至高斯平面</h1><h2 id="1-地图学投影变换基本概念"><a href="#1-地图学投影变换基本概念" class="headerlink" title="1.地图学投影变换基本概念"></a>1.地图学投影变换基本概念</h2><h3 id="1-1投影变换的意义和方程"><a href="#1-1投影变换的意义和方程" class="headerlink" title="1.1投影变换的意义和方程"></a>1.1投影变换的意义和方程</h3><h3 id="1-2地图投影的变形"><a href="#1-2地图投影的变形" class="headerlink" title="1.2地图投影的变形"></a>1.2地图投影的变形</h3><h3 id="1-3地图投影分类"><a href="#1-3地图投影分类" class="headerlink" title="1.3地图投影分类"></a>1.3地图投影分类</h3><h2 id="2-高斯投影概述"><a href="#2-高斯投影概述" class="headerlink" title="2.高斯投影概述"></a>2.高斯投影概述</h2><h3 id="2-1控制测量对地图投影的要求"><a href="#2-1控制测量对地图投影的要求" class="headerlink" title="2.1控制测量对地图投影的要求"></a>2.1控制测量对地图投影的要求</h3><h3 id="2-2高斯投影基本概念"><a href="#2-2高斯投影基本概念" class="headerlink" title="2.2高斯投影基本概念"></a>2.2高斯投影基本概念</h3><h3 id="2-3椭球面三角系化算到高斯平面"><a href="#2-3椭球面三角系化算到高斯平面" class="headerlink" title="2.3椭球面三角系化算到高斯平面"></a>2.3椭球面三角系化算到高斯平面</h3>
+                <h1 id="椭球面元素归算至高斯平面"><a href="#椭球面元素归算至高斯平面" class="headerlink" title="椭球面元素归算至高斯平面"></a>椭球面元素归算至高斯平面</h1><h2 id="1-地图学投影变换基本概念"><a href="#1-地图学投影变换基本概念" class="headerlink" title="1.地图学投影变换基本概念"></a>1.地图学投影变换基本概念</h2><h3 id="1-1投影变换的意义和方程"><a href="#1-1投影变换的意义和方程" class="headerlink" title="1.1投影变换的意义和方程"></a>1.1投影变换的意义和方程</h3><p>$x = F_1(L,B)$</p>
+<p>$y = F_2(L,B)$</p>
+<h3 id="1-2地图投影的变形"><a href="#1-2地图投影的变形" class="headerlink" title="1.2地图投影的变形"></a>1.2地图投影的变形</h3><ul>
+<li>长度比</li>
+</ul>
+<p>$m = \lim_{P_1P_2\rightarrow0} \frac{P_1’P_2’}{P_1P_2}$</p>
+<p>结论：一点的长度比，不仅随点的位置，而且随线段方向而变化。</p>
+<ul>
+<li>主方向和变形椭圆</li>
+</ul>
+<p>$ m = r $(r为变形椭圆半径，即O’P’)</p>
+<ul>
+<li>投影变形</li>
+</ul>
+<p>变形的基本特征</p>
+<ol>
+<li><p>长度变形  </p>
+<p>$m = r = \sqrt{a^2cos^2α+b^2sin^2α}$  α为方位角。</p>
+<p>长度变形：$ v = m-1$</p>
+</li>
+<li><p>方向变形</p>
+<p>投影后方位角减去原来的方位角的差值称为方向变形。</p>
+<p>计算方向变形公式：$sin(α-α’) = \frac{a-b}{a+b}sin(α+α’)$</p>
+<p>最大方向变形公式：$tanα_0 = \pm\sqrt{\frac{a}{b}},tanα’_0 = \pm\sqrt{\frac{b}{a}}$  </p>
+</li>
+<li><p>角度变形</p>
+<p>计算变形公式：$△u = u’-u = 2(α_1-α’_1)$</p>
+<p>最大角度变形：$△u = 2ω =2arcsin\frac{a-b}{a+b}$</p>
+</li>
+<li><p>面积变形</p>
+<p>投影面积比：$P = \frac{πab}{π}= ab$</p>
+<p>面积变形：$P-1$</p>
+</li>
+</ol>
+<h3 id="1-3地图投影分类"><a href="#1-3地图投影分类" class="headerlink" title="1.3地图投影分类"></a>1.3地图投影分类</h3><ul>
+<li>按性质分类<ol>
+<li>等角投影</li>
+<li>等积投影</li>
+<li>任意投影</li>
+</ol>
+</li>
+<li>按投影形状分类<ol>
+<li>方位投影</li>
+<li>圆锥投影</li>
+<li>圆柱投影</li>
+</ol>
+</li>
+</ul>
+<h2 id="2-高斯投影概述"><a href="#2-高斯投影概述" class="headerlink" title="2.高斯投影概述"></a>2.高斯投影概述</h2><h3 id="2-1控制测量对地图投影的要求"><a href="#2-1控制测量对地图投影的要求" class="headerlink" title="2.1控制测量对地图投影的要求"></a>2.1控制测量对地图投影的要求</h3><ul>
+<li>采用等角投</li>
+<li>限制在不大的范围内，从而控制变形并能用简单的公式计算其改正数。</li>
+<li>将大的区域按一定规律分成若干个小区域。每个带单独投影，并组成本身的直角坐标系，然后再将这些简单的数学方法链接在一起，从而组成统一的系统。</li>
+</ul>
+<h3 id="2-2高斯投影基本概念"><a href="#2-2高斯投影基本概念" class="headerlink" title="2.2高斯投影基本概念"></a>2.2高斯投影基本概念</h3><p><a href="https://baike.baidu.com/item/%E9%AB%98%E6%96%AF-%E5%85%8B%E5%90%95%E6%A0%BC%E6%8A%95%E5%BD%B1/5649659?fr=aladdin&amp;fromid=11058727&amp;fromtitle=%E9%AB%98%E6%96%AF%E6%8A%95%E5%BD%B1" target="_blank" rel="noopener">高斯投影</a></p>
+<h3 id="2-3椭球面三角系化算到高斯平面"><a href="#2-3椭球面三角系化算到高斯平面" class="headerlink" title="2.3椭球面三角系化算到高斯平面"></a>2.3椭球面三角系化算到高斯平面</h3>
                 <hr>
                 
 
