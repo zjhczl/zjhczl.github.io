@@ -180,7 +180,7 @@
 <li>必要观测数，用t表示，为独立量。一个几何模型独立量最多为t个。n为观测值个数，r为多余观测数，r=n-t。r又称为“自由度”。</li>
 <li>除t个独立量以外，每增加一个量就产生一个函数关系式，被称为条件方程。一个几何模型如果有r个多余观测量，就产生r个条件方程。</li>
 <li>仅用观测值组成条件，就会产生闭合差。如：$L_1+L_2+L_3-180=W\ne0$(三角形内角和)W即为闭合差。测量平差的主要目的就是消除闭合差。</li>
-<li>$\tilde{L}$真值，</li>
+<li>$\tilde{L}$真值，$\hat{l}$估值。</li>
 </ol>
 <ul>
 <li><h2 id="条件平差"><a href="#条件平差" class="headerlink" title="条件平差"></a>条件平差</h2></li>
@@ -368,6 +368,21 @@
 
 <!--wechat title img-->
 <img class="wechat-title-img" src="http://m.qpic.cn/psb?/V139CPX31CNNkd/C8Nby5.yu4VlSxue4SdcXavnBzKHIKUW0OYj3p5vh80!/b/dDABAAAAAAAA&amp;bo=MQK2AQAAAAADJ4Y!&amp;rf=viewer_4">
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 
 </html>
