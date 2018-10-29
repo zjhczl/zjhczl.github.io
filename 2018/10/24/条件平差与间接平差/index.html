@@ -187,6 +187,22 @@
 <li><h2 id="条件平差"><a href="#条件平差" class="headerlink" title="条件平差"></a>条件平差</h2></li>
 </ul>
 <p>概念：以条件方程为函数模型的平差方法，称为条件平差方法。</p>
+<p>步骤：</p>
+<ol>
+<li>根据平差问题列出条件方程式，条件方程式个数等于多余观测数r。</li>
+<li>根据条件式的系数，闭合差及观测值的协因数阵组成法方程式，法方程个数等于多余观测数r。</li>
+<li>解算法方程，求出系数K值。</li>
+<li>将K代入改正数方程式，求出V值，并求出平差值$\hat{L}=L+V$。</li>
+<li>为了检测平差计算正确性，用平差值$\hat{L}$重新列出平差值条件方程式验算。</li>
+</ol>
+<p>例题分析：例5-1 （P82）</p>
+<img src="/2018/10/24/条件平差与间接平差/tjpc.png">
+<p>由题目可以列出一个条件方程：</p>
+<p>$\hat{L_1}+\hat{L_2}+\hat{L_3}-180°=0$</p>
+<hr>
+<p>将$\hat{L_i}=L_i+vi$代入上式得：</p>
+<p>$v1+v2+v3+9=0$</p>
+<img src="/2018/10/24/条件平差与间接平差/tjpczh.png">
 <ul>
 <li><h2 id="间接平差"><a href="#间接平差" class="headerlink" title="间接平差"></a>间接平差</h2></li>
 </ul>
@@ -221,16 +237,8 @@
 <p>改写为矩阵：</p>
 <img src="/2018/10/24/条件平差与间接平差/wcjz.png">
 <p>按10km为单位权，即：$P_i=\frac{C}{S_i}=\frac{10}{S_i}$</p>
-<p>写出权阵：</p>
-<script type="math/tex; mode=display">
-P = \left[
-\begin{matrix}
-2.9 & 0 & 0 & 0 & 0\\
-0 & 3.7 & 0 & 0 & 0\\
-7 & 0 & 2.5 & 0 & 0\\
-7 & 0 & 0 & 3.3 & 0\\
-7 & 0 & 0 & 0 & 4.0\\
-\end{matrix} \right]\tag{2}</script><hr>
+<p>写出权阵：<br>$$<br>P = \left[<br>\begin{matrix}<br>2.9 &amp; 0 &amp; 0 &amp; 0 &amp; 0\<br>0 &amp; 3.7 &amp; 0 &amp; 0 &amp; 0\<br>7 &amp; 0 &amp; 2.5 &amp; 0 &amp; 0\<br>7 &amp; 0 &amp; 0 &amp; 3.3 &amp; 0\<br>7 &amp; 0 &amp; 0 &amp; 0 &amp; 4.0\<br>\end{matrix} \right]\tag{2}<br>$$</p>
+<hr>
 <img src="/2018/10/24/条件平差与间接平差/jjpczh.png">
                 <hr>
                 
