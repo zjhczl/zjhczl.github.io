@@ -1,65 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Head tag -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="zj的个人博客" />
+    <meta name="keyword" content="" />
+    <meta name="theme-color" content="#600090" />
+    <meta name="msapplication-navbutton-color" content="#600090" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#600090" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-128.png"
+    />
+    <link
+      rel="alternate"
+      type="application/atom+xml"
+      title="红尘逐浪"
+      href="/atom.xml"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css"
+    />
+    <title> </title>
 
-<!-- Head tag -->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="zj的个人博客">
-    <meta name="keyword" content="">
-    <meta name="theme-color" content="#600090">
-    <meta name="msapplication-navbutton-color" content="#600090">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#600090">
-    <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-128.png">
-    <link rel="alternate" type="application/atom+xml" title="红尘逐浪" href="/atom.xml">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
-    <title>
-        
-        
-        
-    </title>
-
-    <link rel="canonical" href="http://yoursite.com/">
+    <link rel="canonical" href="http://yoursite.com/" />
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/blog-style.css">
+    <link rel="stylesheet" href="/css/blog-style.css" />
 
     <!-- Pygments Github CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
-</head>
+    <link rel="stylesheet" href="/css/syntax.css" />
+  </head>
 
-<style>
-
+  <style>
     header.intro-header {
-        background-image: url('http://www.zj1996.cn/img/psb.jpg')
+      background-image: url("http://www.zj1996.cn/img/psb.jpg");
     }
-</style>
-<!-- hack iOS CSS :active style -->
-<body ontouchstart="" class="animated fadeIn">
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost = "false" data-istags="false
-" data-ishome = "true" >
-    <div class="container-fluid">
+  </style>
+  <!-- hack iOS CSS :active style -->
+  <body ontouchstart="" class="animated fadeIn">
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-default navbar-custom navbar-fixed-top"
+      id="nav-top"
+      data-ispost="false"
+      data-istags="false
+"
+      data-ishome="true"
+    >
+      <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand animated pulse" href="/">
-                <span class="brand-logo">
-                    红尘逐浪
-                </span>
-                's Blog
-            </a>
+          <button type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand animated pulse" href="/">
+            <span class="brand-logo"> 红尘逐浪 </span>
+            's Blog
+          </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -70,65 +82,55 @@
         -->
         <!-- /.navbar-collapse -->
         <div id="huxblog_navbar">
-            <div class="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="/">Home</a>
-                    </li>
-					
-                    
-                        
-							
-                        <li>
-                            <a href="/tags/">tags</a>
-                        </li>
-							
-						
-                    
-					
-					
-                </ul>
-            </div>
+          <div class="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="/">Home</a>
+              </li>
+
+              <li>
+                <a href="/tags/">tags</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-    <!-- /.container -->
-</nav>
-<script>
-    // Drop Bootstarp low-performance Navbar
-    // Use customize navbar with high-quality material design animation
-    // in high-perf jank-free CSS3 implementation
-//    var $body   = document.body;
-    var $toggle = document.querySelector('.navbar-toggle');
-    var $navbar = document.querySelector('#huxblog_navbar');
-    var $collapse = document.querySelector('.navbar-collapse');
+      </div>
+      <!-- /.container -->
+    </nav>
+    <script>
+      // Drop Bootstarp low-performance Navbar
+      // Use customize navbar with high-quality material design animation
+      // in high-perf jank-free CSS3 implementation
+      //    var $body   = document.body;
+      var $toggle = document.querySelector(".navbar-toggle");
+      var $navbar = document.querySelector("#huxblog_navbar");
+      var $collapse = document.querySelector(".navbar-collapse");
 
-    $toggle.addEventListener('click', handleMagic)
-    function handleMagic(e){
-        if ($navbar.className.indexOf('in') > 0) {
-        // CLOSE
-            $navbar.className = " ";
-            // wait until animation end.
-            setTimeout(function(){
-                // prevent frequently toggle
-                if($navbar.className.indexOf('in') < 0) {
-                    $collapse.style.height = "0px"
-                }
-            },400)
-        }else{
-        // OPEN
-            $collapse.style.height = "auto"
-            $navbar.className += " in";
+      $toggle.addEventListener("click", handleMagic);
+      function handleMagic(e) {
+        if ($navbar.className.indexOf("in") > 0) {
+          // CLOSE
+          $navbar.className = " ";
+          // wait until animation end.
+          setTimeout(function () {
+            // prevent frequently toggle
+            if ($navbar.className.indexOf("in") < 0) {
+              $collapse.style.height = "0px";
+            }
+          }, 400);
+        } else {
+          // OPEN
+          $collapse.style.height = "auto";
+          $navbar.className += " in";
         }
-    }
-</script>
+      }
+    </script>
 
-<!-- Main Content -->
+    <!-- Main Content -->
 
-
-<style>
-
-    .custom-haojen-container .post-preview:nth-of-type(1),
-    .custom-haojen-container .post-preview-poetry:nth-of-type(1) {
+    <style>
+      .custom-haojen-container .post-preview:nth-of-type(1),
+      .custom-haojen-container .post-preview-poetry:nth-of-type(1) {
         text-align: center;
         background-repeat: no-repeat;
         border-radius: 3px;
@@ -138,609 +140,495 @@
         display: table;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.16);
-    }
+      }
 
-    /*去掉诗歌的背景图片*/
-    .custom-haojen-container .post-preview-poetry:nth-of-type(1) {
+      /*去掉诗歌的背景图片*/
+      .custom-haojen-container .post-preview-poetry:nth-of-type(1) {
         background-image: none !important;
         background-color: rgba(255, 248, 220, 0.5);
-    }
+      }
 
-    .custom-haojen-container .post-preview:nth-child(1) h2,
-    .custom-haojen-container .post-preview:nth-child(1) .post-meta,
-    .custom-haojen-container .post-preview:nth-child(1) .post-subtitle {
+      .custom-haojen-container .post-preview:nth-child(1) h2,
+      .custom-haojen-container .post-preview:nth-child(1) .post-meta,
+      .custom-haojen-container .post-preview:nth-child(1) .post-subtitle {
         text-shadow: 0 0 40px rgba(0, 0, 0, 1);
         letter-spacing: 1px;
         color: #fff;
         margin-top: 0;
         padding-left: 60px;
         padding-right: 60px;
-    }
+      }
 
-    .custom-haojen-container .post-preview:nth-child(1) .post-meta {
-        font-size: .9em;
+      .custom-haojen-container .post-preview:nth-child(1) .post-meta {
+        font-size: 0.9em;
         font-weight: 300;
         margin-top: 0;
-    }
+      }
 
-    .custom-haojen-container .post-preview-poetry:nth-child(1) .post-subtitle {
+      .custom-haojen-container
+        .post-preview-poetry:nth-child(1)
+        .post-subtitle {
         letter-spacing: 6px;
         font-size: 18px;
         font-family: unset;
         font-weight: 400;
-        color: rgba(0, 0, 0, .75)
-    }
+        color: rgba(0, 0, 0, 0.75);
+      }
 
-    /*不显示摘要*/
-    .custom-haojen-container .post-preview:nth-child(1) .post-content-preview {
-        display: none
-    }
-
-    /*只第一个显示背景图片*/
-    .custom-haojen-container .post-preview:not(:nth-child(1)) {
-        background-image: none !important;
-    }
-
-    /*第一个分界线去掉*/
-    .custom-haojen-container hr:nth-of-type(1) {
+      /*不显示摘要*/
+      .custom-haojen-container
+        .post-preview:nth-child(1)
+        .post-content-preview {
         display: none;
-    }
+      }
 
-    /*主题*/
-    .custom-haojen-container .post-preview:nth-of-type(1) > a {
+      /*只第一个显示背景图片*/
+      .custom-haojen-container .post-preview:not(:nth-child(1)) {
+        background-image: none !important;
+      }
+
+      /*第一个分界线去掉*/
+      .custom-haojen-container hr:nth-of-type(1) {
+        display: none;
+      }
+
+      /*主题*/
+      .custom-haojen-container .post-preview:nth-of-type(1) > a {
         display: table-cell;
         vertical-align: middle;
-    }
+      }
 
-    /*诗词标题*/
-    .custom-haojen-container .post-preview-poetry:nth-child(1) h2 {
+      /*诗词标题*/
+      .custom-haojen-container .post-preview-poetry:nth-child(1) h2 {
         font-size: 35px;
         font-family: STKaiti;
-        color: rgba(0, 0, 0, .8);
-    }
+        color: rgba(0, 0, 0, 0.8);
+      }
 
-    .custom-haojen-container .post-preview-poetry:nth-of-type(1) .post-meta {
+      .custom-haojen-container .post-preview-poetry:nth-of-type(1) .post-meta {
         color: #0e2231;
-    }
+      }
 
-    @media (max-width: 768px) {
+      @media (max-width: 768px) {
         .custom-haojen-container .post-preview:nth-child(1) {
-            height: 240px;
+          height: 240px;
         }
 
         .custom-haojen-container .post-preview-poetry:nth-child(1) h2 {
-            font-size: 28px !important;
-            margin-top: 0;
+          font-size: 28px !important;
+          margin-top: 0;
         }
 
         .custom-haojen-container .post-preview:nth-child(1) .post-subtitle {
-            font-size: 18px;
-            font-weight: 400;
-            padding-left: 0;
-            padding-right: 0;
+          font-size: 18px;
+          font-weight: 400;
+          padding-left: 0;
+          padding-right: 0;
         }
 
         .custom-haojen-container .post-preview:nth-of-type(1) > a {
-            padding: 20px
+          padding: 20px;
         }
-    }
+      }
 
-    /*手机屏幕*/
-    @media (max-width: 400px) {
+      /*手机屏幕*/
+      @media (max-width: 400px) {
         .custom-haojen-container .post-preview:nth-child(1) {
-            height: 195px;
+          height: 195px;
         }
 
         .custom-haojen-container .post-preview-poetry:nth-child(1) h2 {
-            font-size: 20px !important;
+          font-size: 20px !important;
         }
 
         .custom-haojen-container .post-preview:nth-child(1) .post-subtitle {
-            font-size: 16px;
+          font-size: 16px;
         }
 
         .custom-haojen-container .post-preview:nth-child(1) a {
-            padding: 30px 20px;
+          padding: 30px 20px;
         }
-    }
-</style>
+      }
+    </style>
 
-<!-- Page Header -->
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 visible-xs-block visible-sm-block">
-    <div class="row">
+    <!-- Page Header -->
+    <div
+      class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 visible-xs-block visible-sm-block"
+    >
+      <div class="row">
         <header class="intro-header">
-            <div class="container">
-                <div class="site-heading text-center">
-                    <div class="about-me">
-                        <!--移动端头部显示-->
-                        <img src="http://m.qpic.cn/psb?/V139CPX31CNNkd/C8Nby5.yu4VlSxue4SdcXavnBzKHIKUW0OYj3p5vh80!/b/dDABAAAAAAAA&amp;bo=MQK2AQAAAAADJ4Y!&amp;rf=viewer_4"/>
-                        <h5><a href="/about/">zj</a></h5>
-                        <p>春来花自青 秋至叶飘零</p>
-                    </div>
-                </div>
+          <div class="container">
+            <div class="site-heading text-center">
+              <div class="about-me">
+                <!--移动端头部显示-->
+                <img
+                  src="http://m.qpic.cn/psb?/V139CPX31CNNkd/C8Nby5.yu4VlSxue4SdcXavnBzKHIKUW0OYj3p5vh80!/b/dDABAAAAAAAA&amp;bo=MQK2AQAAAAADJ4Y!&amp;rf=viewer_4"
+                />
+                <h5><a href="/about/">zj</a></h5>
+                <p>春来花自青 秋至叶飘零</p>
+              </div>
             </div>
+          </div>
         </header>
+      </div>
     </div>
-</div>
-<!-- Main Content -->
-<div class="container custom-haojen-container">
-    <!-- Post Container -->
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 post-container">
-            <!-- Main Content -->
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2019/04/04/线性代数/">
-        <h2 class="post-title">
-            线性代数
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-04-04
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2019/02/27/GPS学习笔记/">
-        <h2 class="post-title">
-            GPS学习笔记
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-02-27
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                GPS学习笔记一，子午卫星定位原理多普勒效应
-
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2018/12/23/测绘专业研招学校/">
-        <h2 class="post-title">
-            测绘专业研招学校
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2018-12-23
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                
-测绘专业各省研招学校名单
-北京市:(10001)北京大学(10003)清华大学(10016)北京建筑大学(10027)北京师范大学(11413)中国矿业大学(北京)(11415)中国地质大学(北京)(14430)中国科学院大学(86001)中国测绘科学研究院天津市:(10792)天津城建大学河..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2018/12/18/控制测量总复习/">
-        <h2 class="post-title">
-            控制测量总复习
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2018-12-18
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                控制测量学总复一，填空题~1.卯酉圈，子午圈，平行圈，大地线的概念已经半径表达公式。平行圈：垂直与旋转轴的平面与椭球面所截得的圆。
-子午圈：包含旋转轴的平面与椭球面所截得的椭圆。
-半径公式：$M = \frac{a(1-e^2)}{W^3}   ,  M = \frac{c}{V^3}  ,  ..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2018/12/05/计算机病毒学习/">
-        <h2 class="post-title">
-            计算机病毒学习
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2018-12-05
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                计算机病毒学习注册表开机启动
-
-改变关联程序
-镜像劫持（阻止程序运行）
-
-遇见项无法重命名的问题隐藏盘符
-
-修改浏览器主页
-脚本病毒修改注册表
-
-
-
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2018/12/04/道路勘测总复习/">
-        <h2 class="post-title">
-            道路勘测总复习
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2018-12-04
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                道路勘测总复习第一章 绪论线性研究的重要性（1）线形的几何构造尺寸是构筑良好环境的基础、伴随道路全部设计和施工的全过程；
-（2）线形的几何构造尺寸决定了车辆行驶的安全性、舒适性及道路建设与运营的经济性；
-（3）线形的几何构造尺寸决定了道路的等级与规模。
-道路线形设计涉及的学科及知识是多方面的，主..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2018/11/30/摄影测量学总复习/">
-        <h2 class="post-title">
-            摄影测量学总复习
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2018-11-30
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                摄影测量学总复习第一章 绪论1.摄影测量发展的3个阶段与特点
-模拟摄影测量
-
-解析摄影测量
-
-数字摄影测量
-
-
-第二章略
-第三章 摄影测量基础要点：
-在飞机飞行过程中很难精确确定航高H，但是差异一般不大于5%，同一航线内，各个摄影站高差不大于50m。
-空中摄影过程：实质上是将地球表面上的地物，地..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2018/11/04/全微分与泰勒级数/">
-        <h2 class="post-title">
-            全微分与泰勒级数
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2018-11-04
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2018/10/31/摄影测量解析基础/">
-        <h2 class="post-title">
-            摄影测量解析基础
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2018-10-31
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                摄影测量学解析基础1.基础知识内方位元素：$x_0，y_0，f$。
-外方位元素：$φ，ω，κ，X_S,Y_S,Z_S$。（φ为航向倾角，ω为旁向倾角，κ照片旋角）
-共线方程：描述像空间坐标系与地面摄影坐标系关系的方程。
-
-2.双向解析测量
-后交-前交解法
-相对定向-绝对定向
-光束法
-
-
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2018/10/26/最小二乘法/">
-        <h2 class="post-title">
-            最小二乘法
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2018-10-26
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                最小二乘法基础：
-无偏性：设$\hat{θ}$为参数θ的估计量，如果估计量的数学期望等于参数θ，即为$\hat{θ}$为θ的·无偏估计量。$E(\hat{θ})=θ$
-
-一致性：略
-
-有效性：若$\hat{θ_1}$，$\hat{θ_2}$有$D(\hat{θ_1})&lt;D(\hat{θ_2..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-
-<!-- 翻页 pager -->
-
-<ul class="pager">
-    
-    
-    <li class="next">
-        <a href="/page/2/">Older Posts &rarr;</a>
-    </li>
-    
-</ul>
-
-
+    <!-- Main Content -->
+    <div class="container custom-haojen-container">
+      <!-- Post Container -->
+      <div class="row">
+        <div
+          class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 post-container"
+        >
+          <!-- Main Content -->
+
+          <div class="post-preview" style="background-image: url('')">
+            <a href="/2019/04/04/线性代数/">
+              <h2 class="post-title">线性代数</h2>
+              <p class="post-meta">
+                <i class="fa fa-calendar" aria-hidden="true"></i> 2019-04-04
+              </p>
+
+              <div class="post-content-preview">
+                <p></p>
+              </div>
+            </a>
+          </div>
+
+          <hr />
+
+          <div class="post-preview" style="background-image: url('')">
+            <a href="/2019/02/27/GPS学习笔记/">
+              <h2 class="post-title">GPS学习笔记</h2>
+              <p class="post-meta">
+                <i class="fa fa-calendar" aria-hidden="true"></i> 2019-02-27
+              </p>
+
+              <div class="post-content-preview">
+                <p>GPS学习笔记一，子午卫星定位原理多普勒效应</p>
+              </div>
+            </a>
+          </div>
+
+          <hr />
+
+          <div class="post-preview" style="background-image: url('')">
+            <a href="/2018/12/23/测绘专业研招学校/">
+              <h2 class="post-title">测绘专业研招学校</h2>
+              <p class="post-meta">
+                <i class="fa fa-calendar" aria-hidden="true"></i> 2018-12-23
+              </p>
+
+              <div class="post-content-preview">
+                <p>
+                  测绘专业各省研招学校名单
+                  北京市:(10001)北京大学(10003)清华大学(10016)北京建筑大学(10027)北京师范大学(11413)中国矿业大学(北京)(11415)中国地质大学(北京)(14430)中国科学院大学(86001)中国测绘科学研究院天津市:(10792)天津城建大学河..
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <hr />
+
+          <div class="post-preview" style="background-image: url('')">
+            <a href="/2018/12/18/控制测量总复习/">
+              <h2 class="post-title">控制测量总复习</h2>
+              <p class="post-meta">
+                <i class="fa fa-calendar" aria-hidden="true"></i> 2018-12-18
+              </p>
+
+              <div class="post-content-preview">
+                <p>
+                  控制测量学总复一，填空题~1.卯酉圈，子午圈，平行圈，大地线的概念已经半径表达公式。平行圈：垂直与旋转轴的平面与椭球面所截得的圆。
+                  子午圈：包含旋转轴的平面与椭球面所截得的椭圆。 半径公式：$M =
+                  \frac{a(1-e^2)}{W^3} , M = \frac{c}{V^3} , ..
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <hr />
+
+          <div class="post-preview" style="background-image: url('')">
+            <a href="/2018/12/05/计算机病毒学习/">
+              <h2 class="post-title">计算机病毒学习</h2>
+              <p class="post-meta">
+                <i class="fa fa-calendar" aria-hidden="true"></i> 2018-12-05
+              </p>
+
+              <div class="post-content-preview">
+                <p>
+                  计算机病毒学习注册表开机启动 改变关联程序
+                  镜像劫持（阻止程序运行） 遇见项无法重命名的问题隐藏盘符
+                  修改浏览器主页 脚本病毒修改注册表
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <hr />
+
+          <div class="post-preview" style="background-image: url('')">
+            <a href="/2018/12/04/道路勘测总复习/">
+              <h2 class="post-title">道路勘测总复习</h2>
+              <p class="post-meta">
+                <i class="fa fa-calendar" aria-hidden="true"></i> 2018-12-04
+              </p>
+
+              <div class="post-content-preview">
+                <p>
+                  道路勘测总复习第一章
+                  绪论线性研究的重要性（1）线形的几何构造尺寸是构筑良好环境的基础、伴随道路全部设计和施工的全过程；
+                  （2）线形的几何构造尺寸决定了车辆行驶的安全性、舒适性及道路建设与运营的经济性；
+                  （3）线形的几何构造尺寸决定了道路的等级与规模。
+                  道路线形设计涉及的学科及知识是多方面的，主..
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <hr />
+
+          <div class="post-preview" style="background-image: url('')">
+            <a href="/2018/11/30/摄影测量学总复习/">
+              <h2 class="post-title">摄影测量学总复习</h2>
+              <p class="post-meta">
+                <i class="fa fa-calendar" aria-hidden="true"></i> 2018-11-30
+              </p>
+
+              <div class="post-content-preview">
+                <p>
+                  摄影测量学总复习第一章 绪论1.摄影测量发展的3个阶段与特点
+                  模拟摄影测量 解析摄影测量 数字摄影测量 第二章略 第三章
+                  摄影测量基础要点：
+                  在飞机飞行过程中很难精确确定航高H，但是差异一般不大于5%，同一航线内，各个摄影站高差不大于50m。
+                  空中摄影过程：实质上是将地球表面上的地物，地..
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <hr />
+
+          <div class="post-preview" style="background-image: url('')">
+            <a href="/2018/11/04/全微分与泰勒级数/">
+              <h2 class="post-title">全微分与泰勒级数</h2>
+              <p class="post-meta">
+                <i class="fa fa-calendar" aria-hidden="true"></i> 2018-11-04
+              </p>
+
+              <div class="post-content-preview">
+                <p></p>
+              </div>
+            </a>
+          </div>
+
+          <hr />
+
+          <div class="post-preview" style="background-image: url('')">
+            <a href="/2018/10/31/摄影测量解析基础/">
+              <h2 class="post-title">摄影测量解析基础</h2>
+              <p class="post-meta">
+                <i class="fa fa-calendar" aria-hidden="true"></i> 2018-10-31
+              </p>
+
+              <div class="post-content-preview">
+                <p>
+                  摄影测量学解析基础1.基础知识内方位元素：$x_0，y_0，f$。
+                  外方位元素：$φ，ω，κ，X_S,Y_S,Z_S$。（φ为航向倾角，ω为旁向倾角，κ照片旋角）
+                  共线方程：描述像空间坐标系与地面摄影坐标系关系的方程。
+                  2.双向解析测量 后交-前交解法 相对定向-绝对定向 光束法
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <hr />
+
+          <div class="post-preview" style="background-image: url('')">
+            <a href="/2018/10/26/最小二乘法/">
+              <h2 class="post-title">最小二乘法</h2>
+              <p class="post-meta">
+                <i class="fa fa-calendar" aria-hidden="true"></i> 2018-10-26
+              </p>
+
+              <div class="post-content-preview">
+                <p>
+                  最小二乘法基础：
+                  无偏性：设$\hat{θ}$为参数θ的估计量，如果估计量的数学期望等于参数θ，即为$\hat{θ}$为θ的·无偏估计量。$E(\hat{θ})=θ$
+                  一致性：略
+                  有效性：若$\hat{θ_1}$，$\hat{θ_2}$有$D(\hat{θ_1})&lt;D(\hat{θ_2..
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <hr />
+
+          <!-- 翻页 pager -->
+
+          <ul class="pager">
+            <li class="next">
+              <a href="/page/2/">Older Posts &rarr;</a>
+            </li>
+          </ul>
         </div>
         <!-- Sidebar Container -->
-        <div class="
-                col-lg-3 col-lg-offset-0
-                col-md-3 col-md-offset-0
-                col-sm-12
-                col-xs-12
-                sidebar-container
-            ">
+        <div
+          class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12 col-xs-12 sidebar-container"
+        >
+          <!-- About Me -->
+          <section class="visible-md visible-lg" style="padding: 0 18px">
+            <div class="short-about">
+              <!--侧边栏头像-->
 
-            <!-- About Me -->
-            <section class="visible-md visible-lg" style="padding: 0 18px">
-                <div class="short-about">
-                    <!--侧边栏头像-->
-                    
-                    <img src="http://m.qpic.cn/psb?/V139CPX31CNNkd/C8Nby5.yu4VlSxue4SdcXavnBzKHIKUW0OYj3p5vh80!/b/dDABAAAAAAAA&amp;bo=MQK2AQAAAAADJ4Y!&amp;rf=viewer_4"/>
-                    
-                    <h5><a href="/about/">zj</a></h5>
-                    
-                    <p>春来花自青 秋至叶飘零</p>
-                    
-                    <hr>
-                    <!-- SNS Link 社交 -->
-                    <ul class="list-inline">
-                        
-                        
-                        
+              <img
+                src="http://m.qpic.cn/psb?/V139CPX31CNNkd/C8Nby5.yu4VlSxue4SdcXavnBzKHIKUW0OYj3p5vh80!/b/dDABAAAAAAAA&amp;bo=MQK2AQAAAAADJ4Y!&amp;rf=viewer_4"
+              />
 
-                        
+              <h5><a href="/about/">zj</a></h5>
 
-                        
+              <p>春来花自青 秋至叶飘零</p>
 
-                        
-
-                        
-                    </ul>
-                </div>
-            </section>
-
-            <!-- Featured Tags  标签 -->
-            
-
-            
-
-        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-<!-- Footer -->
-<footer>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
-                <br>
-                <ul class="list-inline text-center">
-                
-                
-                
-
-                
-
-                
-
-                
-
-                
-
-                </ul>
-
-
-                <p class="copyright text-muted">
-                    Copyright &copy; 红尘逐浪 2020
-                    <br>
-                    <span id="busuanzi_container_site_pv" style="font-size: 12px;">PV: <span id="busuanzi_value_site_pv"></span> Times</span>
-                    <br>
-                </p>
-
+              <hr />
+              <!-- SNS Link 社交 -->
+              <ul class="list-inline"></ul>
             </div>
+          </section>
+
+          <!-- Featured Tags  标签 -->
         </div>
+      </div>
     </div>
-</footer>
 
-<!-- jQuery -->
-<script src="/js/jquery.min.js"></script>
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center"
+          >
+            <br />
+            <ul class="list-inline text-center"></ul>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="/js/bootstrap.min.js"></script>
+            <p class="copyright text-muted">
+              Copyright &copy; 红尘逐浪 2020
+              <br />
+              <a href="https://beian.miit.gov.cn/" target="_blank"
+                >蜀ICP备2022013945号-1</a
+              >
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-<!-- Custom Theme JavaScript -->
-<script src="/js/blog.js"></script>
+    <!-- jQuery -->
+    <script src="/js/jquery.min.js"></script>
 
-<!-- async load function -->
-<script>
-    function async(u, c) {
-      var d = document, t = 'script',
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/blog.js"></script>
+
+    <!-- async load function -->
+    <script>
+      function async(u, c) {
+        var d = document,
+          t = "script",
           o = d.createElement(t),
           s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
-</script>
-
-<!-- jquery.tagcloud.js -->
-<script>
-    // only load tagcloud.js in tag.html
-    if($('#tag_cloud').length !== 0){
-        async("http://yoursite.com/js/jquery.tagcloud.js",function(){
-            $.fn.tagcloud.defaults = {
-                //size: {start: 1, end: 1, unit: 'em'},
-                color: {start: '#bbbbee', end: '#0085a1'},
-            };
-            $('#tag_cloud a').tagcloud();
-        })
-    }
-</script>
-
-<!--fastClick.js -->
-<script>
-    async("//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
-        var $nav = document.querySelector("nav");
-        if($nav) FastClick.attach($nav);
-    })
-</script>
-
-<!-- Google Analytics -->
-
-
-
-<!-- Baidu Tongji -->
-
-
-<!-- swiftype -->
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install','','2.0.0');
-</script>
-
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-
-<!--wechat title img-->
-<img class="wechat-title-img" src="http://m.qpic.cn/psb?/V139CPX31CNNkd/C8Nby5.yu4VlSxue4SdcXavnBzKHIKUW0OYj3p5vh80!/b/dDABAAAAAAAA&amp;bo=MQK2AQAAAAADJ4Y!&amp;rf=viewer_4">
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
+        o.src = u;
+        if (c) {
+          o.addEventListener(
+            "load",
+            function (e) {
+              c(null, e);
+            },
+            false
+          );
         }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-</body>
+        s.parentNode.insertBefore(o, s);
+      }
+    </script>
 
+    <!-- jquery.tagcloud.js -->
+    <script>
+      // only load tagcloud.js in tag.html
+      if ($("#tag_cloud").length !== 0) {
+        async("http://yoursite.com/js/jquery.tagcloud.js", function () {
+          $.fn.tagcloud.defaults = {
+            //size: {start: 1, end: 1, unit: 'em'},
+            color: { start: "#bbbbee", end: "#0085a1" },
+          };
+          $("#tag_cloud a").tagcloud();
+        });
+      }
+    </script>
+
+    <!--fastClick.js -->
+    <script>
+      async("//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+        var $nav = document.querySelector("nav");
+        if ($nav) FastClick.attach($nav);
+      });
+    </script>
+
+    <!-- Google Analytics -->
+
+    <!-- Baidu Tongji -->
+
+    <!-- swiftype -->
+    <script type="text/javascript">
+      (function (w, d, t, u, n, s, e) {
+        w["SwiftypeObject"] = n;
+        w[n] =
+          w[n] ||
+          function () {
+            (w[n].q = w[n].q || []).push(arguments);
+          };
+        s = d.createElement(t);
+        e = d.getElementsByTagName(t)[0];
+        s.async = 1;
+        s.src = u;
+        e.parentNode.insertBefore(s, e);
+      })(
+        window,
+        document,
+        "script",
+        "//s.swiftypecdn.com/install/v2/st.js",
+        "_st"
+      );
+
+      _st("install", "", "2.0.0");
+    </script>
+
+    <script
+      async
+      src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+    ></script>
+
+    <!--wechat title img-->
+    <img
+      class="wechat-title-img"
+      src="http://m.qpic.cn/psb?/V139CPX31CNNkd/C8Nby5.yu4VlSxue4SdcXavnBzKHIKUW0OYj3p5vh80!/b/dDABAAAAAAAA&amp;bo=MQK2AQAAAAADJ4Y!&amp;rf=viewer_4"
+    />
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+          tex2jax: {
+              inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+              skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+              processEscapes: true
+          }
+      });
+      MathJax.Hub.Queue(function() {
+          var all = MathJax.Hub.getAllJax();
+          for (var i = 0; i < all.length; ++i)
+              all[i].SourceElement().parentNode.className += ' has-jax';
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </body>
 </html>
